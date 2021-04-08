@@ -1,12 +1,13 @@
 {
   "name": "@nikolai-cc/mj",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mj 🕺 turns markdown into json",
   "type": "module",
-  "main": "src/mj.js",
+  "main": "dist/bundle.js",
   "bin": "bin/mj.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "rollup -c"
   },
   "author": "nikolai-cc",
   "license": "MIT",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^8.3.2"
+    "mocha": "^8.3.2",
+    "rollup": "^2.44.0"
   }
 }
