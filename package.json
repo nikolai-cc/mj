@@ -1,0 +1,20 @@
+{
+  "name": "@nikolai-cc/mj",
+  "version": "0.0.1",
+  "description": "mj 🕺 turns markdown into json",
+  "type": "module",
+  "main": "src/mj.js",
+  "bin": "bin/mj.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "nikolai-cc",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
