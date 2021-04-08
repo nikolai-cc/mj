@@ -1,6 +1,6 @@
 {
   "name": "@nikolai-cc/mj",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "mj 🕺 turns markdown into json",
   "main": "dist/bundle.js",
   "bin": "bin/mj.js",
