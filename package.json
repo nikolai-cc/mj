@@ -2,7 +2,6 @@
   "name": "@nikolai-cc/mj",
   "version": "0.0.3",
   "description": "mj 🕺 turns markdown into json",
-  "type": "module",
   "main": "dist/bundle.js",
   "bin": "bin/mj.js",
   "scripts": {
